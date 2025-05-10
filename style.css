@@ -1,0 +1,78 @@
+
+    body {
+      background: linear-gradient(145deg, #1e1e1e, #2c2c2c);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+      margin: 0;
+    }
+
+    .calculator {
+      background: #1e1e1e;
+      border-radius: 20px;
+      box-shadow: 10px 10px 30px #141414, -10px -10px 30px #282828;
+      padding: 20px;
+      width: 350px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .shape-image {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      margin: 0 auto 20px auto;
+      display: block;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="number"], select {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: inset 5px 5px 10px #1a1a1a, inset -5px -5px 10px #323232;
+      background: #2e2e2e;
+      color: #fff;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      background: #2e2e2e;
+      color: #fff;
+      font-size: 1em;
+      cursor: pointer;
+      box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #323232;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #3e3e3e;
+    }
+
+    .output {
+      margin-top: 20px;
+    }
+
+    .output p {
+      margin: 5px 0;
+    }
